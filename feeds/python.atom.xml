@@ -18,8 +18,8 @@ Here is what I am trying to use:&lt;/p&gt;
 &lt;li&gt;docs\&lt;/li&gt;
 &lt;li&gt;tests\&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[1] my_project - Root project folder, git should sync here.&lt;/p&gt;
-&lt;p&gt;[2] my_project - Python package …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python project structure is maddening and confusing.
+&lt;p&gt;[1]: my_project - Root project folder, git should sync here.&lt;/p&gt;
+&lt;p&gt;[2]: my_project - Python package …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python project structure is maddening and confusing.
 Here is what I am trying to use:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[my_project][1]\&lt;/li&gt;
@@ -38,5 +38,5 @@ Here is what I am trying to use:&lt;/p&gt;
 &lt;li&gt;docs\&lt;/li&gt;
 &lt;li&gt;tests\&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[1] my_project - Root project folder, git should sync here.&lt;/p&gt;
-&lt;p&gt;[2] my_project - Python package root, contains modules and submodules, etc.&lt;/p&gt;</content><category term="python"></category></entry></feed>
+&lt;p&gt;[1]: my_project - Root project folder, git should sync here.&lt;/p&gt;
+&lt;p&gt;[2]: my_project - Python package root, contains modules and submodules, etc.&lt;/p&gt;</content><category term="python"></category></entry></feed>

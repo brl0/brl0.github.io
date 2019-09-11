@@ -18,8 +18,8 @@ Here is what I am trying to use:&lt;/p&gt;
 &lt;li&gt;docs\&lt;/li&gt;
 &lt;li&gt;tests\&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[1] my_project - Root project folder, git should sync here.&lt;/p&gt;
-&lt;p&gt;[2] my_project - Python package …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python project structure is maddening and confusing.
+&lt;p&gt;[1]: my_project - Root project folder, git should sync here.&lt;/p&gt;
+&lt;p&gt;[2]: my_project - Python package …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Python project structure is maddening and confusing.
 Here is what I am trying to use:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[my_project][1]\&lt;/li&gt;
@@ -38,6 +38,6 @@ Here is what I am trying to use:&lt;/p&gt;
 &lt;li&gt;docs\&lt;/li&gt;
 &lt;li&gt;tests\&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[1] my_project - Root project folder, git should sync here.&lt;/p&gt;
-&lt;p&gt;[2] my_project - Python package root, contains modules and submodules, etc.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>Second post</title><link href="/second-post.html" rel="alternate"></link><published>2019-09-08T00:00:00-05:00</published><updated>2019-09-08T00:00:00-05:00</updated><author><name>brl0</name></author><id>tag:None,2019-09-08:/second-post.html</id><content type="html">&lt;h1&gt;Second Post&lt;/h1&gt;
+&lt;p&gt;[1]: my_project - Root project folder, git should sync here.&lt;/p&gt;
+&lt;p&gt;[2]: my_project - Python package root, contains modules and submodules, etc.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>Second post</title><link href="/second-post.html" rel="alternate"></link><published>2019-09-08T00:00:00-05:00</published><updated>2019-09-08T00:00:00-05:00</updated><author><name>brl0</name></author><id>tag:None,2019-09-08:/second-post.html</id><content type="html">&lt;h1&gt;Second Post&lt;/h1&gt;
 &lt;p&gt;This is my second post.&lt;/p&gt;</content><category term="second"></category><category term="post"></category><category term="ignore"></category></entry></feed>
