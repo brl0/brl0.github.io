@@ -37,23 +37,35 @@
 <p>tags: <a href="/tag/python.html">python</a> </p>
 </footer><!-- /.post-info -->      <p>Python project structure is maddening and confusing.
 Here is what I am trying to use:</p>
+<blockquote>
 <ul>
-<li>[my_project][1]\</li>
+<li>[my_project][^1]\<blockquote>
+<ul>
 <li>LICENSE</li>
 <li>README.*</li>
 <li>requirements.txt</li>
 <li>dev-requirements.txt</li>
-<li>setup.py</li>
-<li>[my_project][2]\<ul>
-<li><strong>init</strong>.py</li>
-<li><strong>main</strong>.py</li>
+<li>
+<p>setup.py</p>
+</li>
+<li>
+<p>[my_project][^2]\</p>
+<blockquote>
+<ul>
+<li><code>__init__.py</code></li>
+<li><code>__main__.py</code></li>
 <li>my_project.py</li>
 <li>cli.py</li>
 </ul>
+</blockquote>
 </li>
 <li>docs\</li>
 <li>tests\</li>
 </ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
 <p>[1]: my_project - Root project folder, git should sync here.</p>
 <p>[2]: my_project - Python package root, contains modules and submodules, etc.</p>
     </div><!-- /.entry-content -->
