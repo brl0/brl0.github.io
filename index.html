@@ -1,162 +1,32 @@
-<!DOCTYPE html>
-<html lang="english">
-<head>
-        <meta charset="utf-8" />
-        <title>brl0 blog</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="brl0 blog Atom Feed" />
-</head>
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./static/style.css">
+<title>Welcome to brl0 home! — brl0 home</title>
+<body>
+  <header>
+    <h1>brl0 home</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Welcome</a></li>
+        
+          <li><a href="./blog/">Blog</a></li>
+        
+          <li><a href="./projects/">Projects</a></li>
+        
+          <li><a href="./about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    
+  <h2>Welcome to brl0 home!</h2>
+  <p>This is a basic demo website that shows how to use Lektor for a basic
+website with some pages and a blog.</p>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">brl0 blog </a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/category/none.html">None</a></li>
-                    <li><a href="/category/projects.html">projects</a></li>
-                    <li><a href="/category/python.html">python</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/ubrl-url-helper-library.html">ubrl - URL helper library</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2019-09-16T00:00:00-05:00">
-                Published: Mon 16 September 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/brl0.html">brl0</a>
-        </address>
-<p>In <a href="/category/projects.html">projects</a>.</p>
-<p>tags: <a href="/tag/python.html">python</a> </p>
-</footer><!-- /.post-info --><p>I created a URL helper library which is currently named ubrl.  As they say, naming is hard.  The name is a bad combination of my initials BRL and the acronym URL.</p>
-<p>It is a utility library is primarily based around three classes, URL, Server, and DNS.</p>
-<p>There is a very basic cli for some functions.</p>
-<p>The project uses black for formatting, and uses type annotations for mypy.</p>
-<p>Pytest is used for testing, and pytest-cov plugin for coverage reporting.</p>
-<p>The project structure was created using cookiecutter based on a template by <code>sethmlarson &lt;https://github.com/sethmlarson/python_project_template&gt;</code>_.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/hello-world.html" rel="bookmark"
-                           title="Permalink to Hello world">Hello world</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-09-08T00:00:00-05:00">
-                Published: Sun 08 September 2019
-        </abbr>
-		<br />
-        <abbr class="modified" title="2019-09-16T00:00:00-05:00">
-                Updated: Mon 16 September 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/brl0.html">brl0</a>
-        </address>
-<p>In <a href="/category/none.html">None</a>.</p>
-<p>tags: <a href="/tag/none.html">None</a> </p>
-</footer><!-- /.post-info -->                <h1>First post</h1>
-<p>Hello world.</p>
-<p>This is my first blog post. It's a blog about nothing. Well, not really nothing, it's gotta be about something. I suppose we'll see.</p>
-                <a class="readmore" href="/hello-world.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/python-project-structure.html" rel="bookmark"
-                           title="Permalink to Python project structure">Python project structure</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-09-08T00:00:00-05:00">
-                Published: Sun 08 September 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/brl0.html">brl0</a>
-        </address>
-<p>In <a href="/category/python.html">python</a>.</p>
-<p>tags: <a href="/tag/python.html">python</a> </p>
-</footer><!-- /.post-info -->                <p>Python project structure can sometimes be maddening and confusing.</p>
-<p>Here is what I am trying to use:</p>
-<blockquote>
-<ul>
-<li><a href="#my_project">my_project</a>\<blockquote>
-<ul>
-<li><a href="#my_project2">my_project</a>\<blockquote>
-<ul>
-<li><a href="#my_projectpy">my_project.py</a></li>
-<li><a href="#init">__init__.py</a></li>
-<li><a href="#main">__main__.py</a></li>
-<li><a href="#apppy">app.py</a></li>
-<li><a href="#clipy">cli.py</a></li>
-</ul>
-</blockquote>
-</li>
-<li>LICENSE</li>
-<li>README.*</li>
-<li>requirements.txt</li>
-<li>dev-requirements.txt</li>
-<li>setup.py</li>
-<li>docs\</li>
-<li>tests\<blockquote>
-<ul>
-<li>test_my_project.py</li>
-</ul>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-</li>
-</ul>
-</blockquote>
-<ul>
-<li><a name="my_project">my_project</a> - Root project folder, git should sync here.</li>
-<li><a name="my_project2">my_project …</a></li></ul>
-                <a class="readmore" href="/python-project-structure.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+  </div>
+  <footer>
+    &copy; Copyright 2019 by brl0.
+  </footer>
 </body>
-</html>
