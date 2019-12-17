@@ -14,6 +14,8 @@ from pelicanconf import *
 SITEURL = ''
 RELATIVE_URLS = False
 
+THEME = "../pelican-themes/bootstrap2-dark"
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 

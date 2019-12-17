@@ -4,7 +4,7 @@ author: brl0
 category: python
 tags: python
 
-Python project structure can be maddening and confusing.
+Python project structure can sometimes be maddening and confusing.
 
 Here is what I am trying to use:
 

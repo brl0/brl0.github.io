@@ -8,6 +8,13 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = "../pelican-themes/bootstrap2-dark"
+
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['sitemap']
+
+SITEMAP = {'exclude': ['tag/', 'category/']}
+
 TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = 'English'

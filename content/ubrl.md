@@ -1,0 +1,17 @@
+title: ubrl - URL helper library
+date: 2019/09/16
+author: brl0
+category: projects
+tags: python
+
+I created a URL helper library which is currently named ubrl.  As they say, naming is hard.  The name is a bad combination of my initials BRL and the acronym URL.
+
+It is a utility library is primarily based around three classes, URL, Server, and DNS.
+
+There is a very basic cli for some functions.
+
+The project uses black for formatting, and uses type annotations for mypy.
+
+Pytest is used for testing, and pytest-cov plugin for coverage reporting.
+
+The project structure was created using cookiecutter based on a template by `sethmlarson <https://github.com/sethmlarson/python_project_template>`_.
