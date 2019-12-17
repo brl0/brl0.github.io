@@ -1,0 +1,36 @@
+title: Python project structure
+---
+author: brl0
+---
+body:
+
+Python project structure can sometimes be maddening and confusing.
+
+Here is what I am trying to use:
+
+> - [my_project](#my_project)\\
+>   > - [my_project](#my_project2)\\
+>   >   > - [my_project.py](#my_projectpy)
+>   >   > - [\_\_init\_\_.py](#init)
+>   >   > - [\_\_main\_\_.py](#main)
+>   >   > - [app.py](#apppy)
+>   >   > - [cli.py](#clipy)
+>   > - LICENSE
+>   > - README.\*
+>   > - requirements.txt
+>   > - dev-requirements.txt
+>   > - setup.py
+>   > - docs\\
+>   > - tests\\
+>   >   > - test_my_project.py
+
+- <a name="my_project">my_project</a> - Root project folder, git should sync here.
+- <a name="my_project2">my_project (2)</a> - Python package root, contains modules and submodules, etc.
+- <a name="my_projectpy">my_project.py</a> - Intuitive entry point for script execution.
+- <a name="init">\_\_init\_\_.py</a> - File necessary for python to recognize package.
+- <a name="main">\_\_main\_\_.py</a> - Entry point for modules executed via `python -m my_project`.
+- <a name="apppy">app.py</a> - Conventional Flask entry point.
+- <a name="clipy">cli.py</a> - Conventional Click entry point.
+
+---
+pub_date: 2019-09-08

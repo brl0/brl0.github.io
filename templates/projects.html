@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+    {{ this.body }}
+    <table>
+        {% for repo in get_github_repos(type="owner", sort="updated") %}
+            <tr>
+                <td>
+                    <strong>
+                        <a href="{{ repo.html_url }}">
+                            {{ repo.name }}
+                        </a>
+                    </strong>
+                    {% if repo.fork %}
+                        (fork)
+                    {% endif %}
+                </td>
+                <td>{{ repo.language }}</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>{{ repo.description }}</p>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

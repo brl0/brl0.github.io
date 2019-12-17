@@ -1,0 +1,11 @@
+[project]
+name = brl0 blog
+
+[servers.ghpages]
+name = GitHubPages
+enabled = yes
+default = yes
+target = ghpages+https://brl0/brl0.github.io
+
+[packages]
+lektor-github-repos = 0.1.1
